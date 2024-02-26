@@ -30,7 +30,7 @@ class AccountPropertiesTest {
 
     @Test
     void shouldGetSpankkiAccount() {
-        Account account = properties.accounts().getFirst();
+        Account account = properties.accounts().get(1);
         assertEquals("spankki", account.name());
         assertEquals("200100", account.username());
         assertEquals("spankki.fi", account.url());
@@ -38,7 +38,7 @@ class AccountPropertiesTest {
 
     @Test
     void shouldGetOpAccount() {
-        Account account = properties.accounts().getFirst();
+        Account account = properties.accounts().get(2);
         assertEquals("op", account.name());
         assertEquals("300100", account.username());
         assertEquals("op.fi", account.url());
@@ -46,7 +46,7 @@ class AccountPropertiesTest {
 
     @Test
     void shouldGetPaypalAccount() {
-        Account account = properties.accounts().getFirst();
+        Account account = properties.accounts().getLast();
         assertEquals("paypal", account.name());
         assertEquals("400100", account.username());
         assertEquals("paypal.com", account.url());
