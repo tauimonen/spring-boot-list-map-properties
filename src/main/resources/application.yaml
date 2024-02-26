@@ -12,3 +12,11 @@ account:
     - name: paypal
       username: 400100
       url: paypal.com
+
+bookmarks:
+  websites:
+    tau: https://www.tau.dev
+    spring-academy: https://spring.academy
+    spring-io: https://spring.io
+    spring-one: https://springone.io
+
