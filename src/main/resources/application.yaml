@@ -1,0 +1,14 @@
+account:
+  accounts:
+    - name: nordea
+      username: 100100
+      url: nordea.fi
+    - name: spankki
+      username: 200100
+      url: spankki.fi
+    - name: op
+      username: 300100
+      url: op.fi
+    - name: paypal
+      username: 400100
+      url: paypal.com
